@@ -59,17 +59,30 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="ETS2.html">Helmets</a>
+                        <a class="nav-link" href="{{url('Helmet')}}">Helmet</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ETS 4.html">Distributor</a>
+                    <a class="nav-link" href="{{url('World link')}}">Distributor</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ETS 5.html">Contacts</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ETS 3.html">Support</a>
+                    <a class="nav-link" href="{{url('Contact')}}">Contact</a>
                     </li>
+                    </li>
+                    <a class="nav-link" href="{{url('Support')}}">Support</a>
+                    <a class="nav-link" href="{{url('Linktree')}}">Pertemuan 1</a>
+                    <a class="nav-link" href="{{url('hello')}}">Pertemuan 2-1</a>
+                    <a class="nav-link" href="{{url('Style')}}">Pertemuan 2-2</a>
+                    <a class="nav-link" href="{{url('Style2')}}">Pertemuan 2-3</a>
+                    <a class="nav-link" href="{{url('responsive1')}}">Pertemuan 3</a>
+                    <a class="nav-link" href="{{url('Testimony')}}">Pertemuan 5</a>
+                    <a class="nav-link" href="{{url('Form')}}">Pertemuan 7</a>
+                    </li>
+                    </li>
+                    </li>
+                    </li>
+                    </li>
+                    </li>
+                    </li>
+                </li>
                 </ul>
             </div>
         </div>
@@ -81,6 +94,7 @@
             <p>Discover the ultimate safety and performance</p>
         </div>
     </section>
+    <H
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

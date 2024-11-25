@@ -13,37 +13,36 @@ use App\http\Controllers\DosenController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/178_Keysha', function () {
-    return view('178_Keysha');
+Route::get('/Linktree', function () {
+    return view('Linktree');
 });
 
-Route::get('/5026221178', function () {
-    return view('5026221178');
+Route::get('/Testimony', function () {
+    return view('Testimony');
 });
 
 Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/ETS 3', function () {
-    return view('ETS 3');
+Route::get('/Contact', function () {
+    return view('Contact');
 });
 
-Route::get('ETS 4', function () {
-    return view('ETS 4');
+Route::get('/Helmet', function () {
+    return view('Helmet');
 });
 
-Route::get('/ETS 5', function () {
-    return view('ETS 5');
+Route::get('/Support', function () {
+    return view('Support');
 });
 
-Route::get('/ETS2', function () {
-    return view('ETS2');
+Route::get('/World link', function () {
+    return view('World link');
 });
 
 Route::get('/Form', function () {
@@ -78,5 +77,14 @@ Route::get('blog', function () {
     return view('blog');
 });
 
-Route::get('dosen', 'App\http\Controllers\DosenController@index');
+Route::get('/pegawai','App\Http\Controllers\PegawaiControllerDB@index');
 
+Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiControllerDB@tambah');
+
+Route::post('/pegawai/store','App\Http\Controllers\PegawaiControllerDB@store');
+
+Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiControllerDB@edit');
+
+Route::post('/pegawai/update','App\Http\Controllers\PegawaiControllerDB@update');
+
+Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiControllerDB@hapus');
